@@ -1,7 +1,7 @@
 import os
 
 
-for folderNames, subFolders, filenames in os.walk(r'C:\Users\george.dominguez\Downloads\LPL Summer'):
+for folderNames, subFolders, filenames in os.walk(r'<root directory>'):
         for file in filenames:
                 if ' ' not in file:
                         continue
